@@ -39,4 +39,4 @@ for i in range(len(point)):
         for k in range(j+1, len(point)):
             for s in range(len(point)):
                 if isInTriangle(point[i], point[j], point[k], point[s]):
-                    print(point[s])
+                    print(point[s]) #输出不是边界点，初学python以后再来改进
